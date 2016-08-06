@@ -36,15 +36,9 @@ Find a local pet (dog, cat, bird, mouse, and much more) in need of a home and bl
 
 5. ```bundle install```
 
-6. ```be rake db:drop```
+6. ```bundle exec rake db:setup```
 
-7. ```be rake db:create```
-
-8. ```be rake db:migrate```
-
-9. ```be rake db:seed```
-
-10. ```be shotgun```
+7. ```bundle exec shotgun```
 
 Your app will now be running on [localhost:9393](http://localhost:9393).
 
@@ -76,15 +70,9 @@ SENDGRID_USERNAME=someherokuapp@heroku.com
 
 5. ```bundle install```
 
-6. ```be rake db:drop```
+6. ```bundle exec rake db:setup```
 
-7. ```be rake db:create```
-
-8. ```be rake db:migrate```
-
-9. ```be rake db:seed```
-
-10. ```be rails server```
+7. ```bundle exec rails server```
 
 Your app will now be running on [localhost:3000](http://localhost:3000).
 
